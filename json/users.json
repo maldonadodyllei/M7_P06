@@ -1,0 +1,178 @@
+[
+    {
+        "username": "dylanX8",
+        "email": "dln@gmail.com",
+        "password": "$2y$10$kzsonB1uLvQeLiwH.9uBGOteWAyGmJNoBOViZnx2w5HwnoJZ44K8W",
+        "token": "f483940081e9bfbc7a82938fecc777e817a4bc86b60f9fcd6536e0cfb842f771",
+        "preferencias": [
+            "Acci\u00f3n",
+            "Deportes"
+        ],
+        "comentarios": [
+            {
+                "username": "spaceX",
+                "email": "spc@gmail.com",
+                "comment": "Nice website of internet"
+            },
+            {
+                "username": "envy",
+                "email": "envy@gmail.com",
+                "comment": "Very beautiful design of website "
+            }
+        ],
+        "avatar": "nf.jpg",
+        "banner": "ferrari_purosangue_2022_4k_8k_3-1920x1080.jpg",
+        "mensajes": [
+            {
+                "destinatario": "valkyrieV7",
+                "mensaje": "Hola bro, como estas? ",
+                "fecha": "2024-01-13 16:30:37"
+            },
+            {
+                "destinatario": "monlau",
+                "mensaje": "Oye, el lunes hay una practica de M7",
+                "fecha": "2024-01-13 16:31:50"
+            },
+            {
+                "destinatario": "zen",
+                "mensaje": "Hoy hace un dia espectacular",
+                "fecha": "2024-01-13 16:43:56"
+            },
+            {
+                "destinatario": "monlau",
+                "mensaje": "Ma\u00f1ana juega el FC Barcelona vs Real Madrid en la final de la Supercopa de Espa\u00f1a",
+                "fecha": "2024-01-13 16:57:03"
+            },
+            {
+                "destinatario": "on",
+                "mensaje": "Hola tio como estas?",
+                "fecha": "2024-01-13 22:58:36"
+            },
+            {
+                "destinatario": "sony",
+                "mensaje": "Nuevo mensaje",
+                "fecha": "2024-01-14 12:17:22"
+            }
+        ]
+    },
+    {
+        "username": "valkyrieV7",
+        "email": "mon@gmail.com",
+        "password": "$2y$10$9JnR8IKSvj.bgGfifeGr8eyjkORGcVOlULxKwrXowff5Iqi2izymK",
+        "token": "98d09e8a79b0a04200ecda3da619088a98f5eeed128c23e7c45bda029d1860dc",
+        "preferencias": [
+            "Aventura",
+            "Acci\u00f3n",
+            "Estrategia",
+            "Deportes"
+        ],
+        "comentarios": [
+            {
+                "username": "Valkyrie",
+                "email": "vlk@gmail.com",
+                "comment": "De los mejores del mundo"
+            }
+        ],
+        "avatar": "romeoSantos.jpg",
+        "banner": "ferrari_purosangue_2022_4k_8k_3-1920x1080.jpg",
+        "mensajes": [
+            {
+                "destinatario": "dylanX8",
+                "mensaje": "Buenos d\u00edas, como van las partidas de RL?",
+                "fecha": "2024-01-14 11:38:11"
+            }
+        ]
+    },
+    {
+        "username": "zen",
+        "email": "zen@gmail.com",
+        "password": "$2y$10$tmDwuEB8T1qUQPQSxrgTSON89xnqD8lvTPa.pFHousG875BQIPgWe",
+        "token": "def670869e3214f71a1d9fe1560ab0710fce7d58f34496cf8403d6d0cd8778b9",
+        "preferencias": [
+            "Aventura",
+            "Estrategia"
+        ],
+        "avatar": "koenigsegg-gemera-2020-8z-3840x2400.jpg",
+        "banner": "yandel.jpg",
+        "mensajes": [
+            {
+                "destinatario": "sony",
+                "mensaje": "Buenos dias ",
+                "fecha": "2024-01-14 12:10:57"
+            }
+        ]
+    },
+    {
+        "username": "monlau",
+        "email": "monlau@gmail.com",
+        "password": "$2y$10$TMA4e2epJk2iDcHZGF.9we7ivRSXlA72Agd4TQuZotNgg.Advm5Z6",
+        "token": "984d2370d71b7542f3c1355eb541a08606318a035118c4c8fe01c9bf32c9a178",
+        "avatar": "theWeeknd.jpg",
+        "banner": "kendrickLamar.jpg",
+        "preferencias": [
+            "Acci\u00f3n",
+            "Estrategia"
+        ],
+        "comentarios": [
+            {
+                "username": "monlau",
+                "email": "monlau@gmail.com",
+                "comment": "Nice website"
+            }
+        ],
+        "mensajes": [
+            {
+                "destinatario": "valkyrieV7",
+                "mensaje": "Hello",
+                "fecha": "2024-01-13 13:58:20"
+            },
+            {
+                "destinatario": "zen",
+                "mensaje": "Bienvenido ha esta plataforma",
+                "fecha": "2024-01-13 14:03:25"
+            },
+            {
+                "destinatario": "dylanX8",
+                "mensaje": "Buenas tardes como estas?",
+                "fecha": "2024-01-13 16:27:48"
+            }
+        ]
+    },
+    {
+        "username": "sony",
+        "email": "sony@gmail.com",
+        "password": "$2y$10$KUUBxae5FetbKJvlpRdCyOvaUX\/vgbj\/aPJeSBBglBUhOWj4C5I0K",
+        "token": "7766d563560cc00d73d1bedd0b54618398d18d783afaf28f2919a9bde93fc153",
+        "avatar": "pitbull.jpg",
+        "banner": "ferrari_purosangue_2022_4k_8k_3-1920x1080.jpg",
+        "preferencias": [
+            "Aventura",
+            "Acci\u00f3n",
+            "Deportes"
+        ],
+        "comentarios": [
+            {
+                "username": "Sony",
+                "email": "sony@gmail.com",
+                "comment": "Es una pagina web bastante bien estructurada"
+            }
+        ],
+        "mensajes": [
+            {
+                "destinatario": "valkyrieV7",
+                "mensaje": "The new Playstation 5 Pro",
+                "fecha": "2024-01-14 12:07:14"
+            },
+            {
+                "destinatario": "on",
+                "mensaje": "The old Playstation 4 Slim",
+                "fecha": "2024-01-14 12:07:41"
+            },
+            {
+                "destinatario": "dylanX8",
+                "mensaje": "The very old Playstation 3 ",
+                "fecha": "2024-01-14 12:08:01"
+            }
+        ]
+    }
+]

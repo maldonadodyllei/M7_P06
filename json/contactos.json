@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Dylan",
+        "correo": "dln@gmail.com",
+        "mensaje": "Esta pagina esta bastante bien",
+        "archivo_adjunto": "youngMiko.jpeg"
+    },
+    {
+        "nombre": "SupraX",
+        "correo": "spx@gmail.com",
+        "mensaje": "I like a lot the preferences page ",
+        "archivo_adjunto": "Practica_666.pdf"
+    },
+    {
+        "nombre": "optimus",
+        "correo": "optimusX@gmail.com",
+        "mensaje": "The best website",
+        "archivo_adjunto": "bizarrap.jpg"
+    },
+    {
+        "nombre": "zen",
+        "correo": "zen@gmail.com",
+        "mensaje": "Es una web que todav\u00eda est\u00e9 en desarrollo pero va en buena direcci\u00f3n",
+        "archivo_adjunto": "eminem.jpg"
+    },
+    {
+        "nombre": "Miguel",
+        "correo": "mg@gmail.com",
+        "mensaje": "Texto",
+        "archivo_adjunto": "Sprint5.pdf"
+    }
+]

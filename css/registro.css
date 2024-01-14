@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&family=Poppins&family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/2825810.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+  width: 340px;
+  height: 370px;
+  background: #2c2c2c93;
+  padding: 47px;
+  color: #fff;
+  border-radius: 17px;
+  padding-bottom: 50px;
+  font-size: 1.3em;
+  font-family: 'Poppins', sans-serif;
+  backdrop-filter: blur(20px);
+
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    opacity: 1;
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 13px 18px;
+    margin: 20px 0 0 0;
+    font-size: 0.8em;
+    border-radius: 100px;
+    background: #3c3c3c94;
+    color: #fff;
+}
+::-ms-reveal {
+    filter: invert(100%);
+}
+
+.form input[type=submit],
+.form input[type=button],
+.h1 {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 13px;
+  margin: 40px 0 0 0;
+  border-radius: 500px;
+  font-weight: 600;
+  animation: bounce2 1.6s;
+}
+
+.h1 {
+    padding: 0;
+    position: relative;
+    top: -35px;
+    display: block;
+    margin-bottom: -0px;
+    font-size: 1.3em;
+}
+
+input {
+ box-sizing: border-box;
+}
+
+.ui {
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#B563FF, #535EFC, #0EC8EE);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(0.25turn, #535EFC, #0EC8EE, #0EC8EE);
+    border-image-slice: 1;
+    display: inline;
+  }
+
+.btn {
+    background: linear-gradient(144deg, #f52121, #7205bf 50%, #00406f);
+    color: #fff;
+    padding: 16px !important;
+    transition: 0.3s ease all;
+  }
+  
+  .btn:hover {
+    background: white;
+    color: rgb(0, 0, 0);
+    padding: 16px !important;
+    cursor: pointer;
+    transition: 0.3s ease all;
+  }
+  
+  .form input[type=text] {
+    animation: bounce 1s;
+    appearance: none;
+  }
+  
+  .form input[type=password] {
+    animation: bounce1 1.3s;
+  }
+
+@media only screen and (max-width: 600px) {
+    .form {
+      width: 70%;
+      padding: 2em;
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(-250px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bounce1 {
+    0% {
+      opacity: 0;
+    }
+  
+    40% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bounce2 {
+    0% {
+      opacity: 0;
+    }
+  
+    70% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+  }
+
+ .link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 1.2em;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-align: center;
+    animation: bounce2 1.6s;
+}
+
+.link a {
+    color: #ff5d4d;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+
+.link a:hover {
+    color: #f52121;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 660px) {
+  form{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .h1{
+    font-size: 1.1em;
+  }
+  .form input[type="text"],
+  .form input[type="password"], .link {
+    font-size: 0.7em;
+  }
+}

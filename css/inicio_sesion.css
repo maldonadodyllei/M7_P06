@@ -1,0 +1,14 @@
+@import 'registro.css';
+
+body{
+    background-image: url(../img/6272395.gif);
+}
+
+form{
+    height: 300px;
+}
+
+.btn {
+    background: linear-gradient(144deg, #db00be, #f4486f 50%, #002677);
+}
+
