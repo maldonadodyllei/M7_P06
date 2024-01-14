@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Soporte Técnico</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <script src="../js/contacto.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div id="title" onclick="titleClick()">
+            <h1>GameZone</h1>
+        </div>
+        <button class="Btn" id="cerrarSesionBtn">
+            <div class="sign"><svg viewBox="0 0 512 512"><path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path></svg></div>
+            <div class="text">Cerrar Sesión</div>
+          </button>      
+    </header>
+    <video src="../video/bkgContact.mp4" autoplay="true" muted="true" loop="true" class="videoPref"></video>
+<main>
+    <form action="../php/procesar_contacto.php" method="post" enctype="multipart/form-data" class="ContactForm" id="ContactForm">
+        <h2>Contacto - Soporte Técnico</h2>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Miguel" required>
+
+        <label for="correo_electronico">Correo Electrónico:</label>
+        <input type="email" id="correo_electronico" name="correo_electronico" placeholder="Ej. mg@gmail.com" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Texto" required></textarea>
+
+        <div>
+            <input type="file" name="file-1" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} archivos seleccionados" multiple />
+            <label for="file-1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="iborrainputfile" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path></svg>
+            <span class="iborrainputfile">Seleccionar archivo</span>
+            </label>
+        </div>
+
+        <button type="submit" class="envMen">Enviar Mensaje</button>
+    </form>
+    <dialog id="dialogo">
+        <h2>Gracias!</h2>
+        <p>Tu mensaje a sido enviado.</p>
+    </dialog>
+</main>
+</body>
+</html>
